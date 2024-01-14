@@ -1,4 +1,4 @@
-require('@entkenntnis/challenges-server')(config => {
+require('./challenges-server/index.js')(config => {
   // config.theme = 'yeti'
   // config.locale = 'de
   // config.brand = 'My-Server'
