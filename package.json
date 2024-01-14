@@ -1,0 +1,19 @@
+{
+  "name": "create-challenges-server",
+  "version": "1.0.0",
+  "description": "demo usage of challenges-server",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Entkenntnis/create-challenges-server.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "Entkenntnis <hack@arrrg.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@entkenntnis/challenges-server": "1.0.0",
+    "sqlite3": "^5.1.5"
+  }
+}
